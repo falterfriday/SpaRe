@@ -4,8 +4,10 @@
 
 /.vs
 *.suo
-SpaceRemastered/wwwroot
-SpaceRemastered/obj
-SpaceRemastered/bin
-SpaceRemastered/.bowerrc
+/SpaceRemastered/wwwroot
+/SpaceRemastered/obj/
+/SpaceRemastered/bin/
+/SpaceRemastered/.bowerrc
 /SpaceRemastered/config.json
+*.dll
+*.pbd
