@@ -1,0 +1,11 @@
+C:\Users\patrick.todd\Documents\Visual Studio 2017\Projects\DotNetCoreApps\SpaceRemastered\SpaceRemastered\bin\Debug\netcoreapp2.0\SpaceRemastered.deps.json
+C:\Users\patrick.todd\Documents\Visual Studio 2017\Projects\DotNetCoreApps\SpaceRemastered\SpaceRemastered\bin\Debug\netcoreapp2.0\SpaceRemastered.runtimeconfig.json
+C:\Users\patrick.todd\Documents\Visual Studio 2017\Projects\DotNetCoreApps\SpaceRemastered\SpaceRemastered\bin\Debug\netcoreapp2.0\SpaceRemastered.runtimeconfig.dev.json
+C:\Users\patrick.todd\Documents\Visual Studio 2017\Projects\DotNetCoreApps\SpaceRemastered\SpaceRemastered\bin\Debug\netcoreapp2.0\SpaceRemastered.dll
+C:\Users\patrick.todd\Documents\Visual Studio 2017\Projects\DotNetCoreApps\SpaceRemastered\SpaceRemastered\bin\Debug\netcoreapp2.0\SpaceRemastered.pdb
+C:\Users\patrick.todd\Documents\Visual Studio 2017\Projects\DotNetCoreApps\SpaceRemastered\SpaceRemastered\obj\Debug\netcoreapp2.0\SpaceRemastered.csproj.CoreCompileInputs.cache
+C:\Users\patrick.todd\Documents\Visual Studio 2017\Projects\DotNetCoreApps\SpaceRemastered\SpaceRemastered\obj\Debug\netcoreapp2.0\SpaceRemastered.AssemblyInfoInputs.cache
+C:\Users\patrick.todd\Documents\Visual Studio 2017\Projects\DotNetCoreApps\SpaceRemastered\SpaceRemastered\obj\Debug\netcoreapp2.0\SpaceRemastered.AssemblyInfo.cs
+C:\Users\patrick.todd\Documents\Visual Studio 2017\Projects\DotNetCoreApps\SpaceRemastered\SpaceRemastered\obj\Debug\netcoreapp2.0\SpaceRemastered.dll
+C:\Users\patrick.todd\Documents\Visual Studio 2017\Projects\DotNetCoreApps\SpaceRemastered\SpaceRemastered\obj\Debug\netcoreapp2.0\SpaceRemastered.pdb
+C:\Users\patrick.todd\Documents\Visual Studio 2017\Projects\DotNetCoreApps\SpaceRemastered\SpaceRemastered\obj\Debug\netcoreapp2.0\SpaceRemastered.csprojResolveAssemblyReference.cache
