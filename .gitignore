@@ -8,3 +8,4 @@ SpaceRemastered/wwwroot
 SpaceRemastered/obj
 SpaceRemastered/bin
 SpaceRemastered/.bowerrc
+/SpaceRemastered/config.json
