@@ -2,9 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/SpaceRemastered/config.json
+config.json
+../.vs
 /.vs
-*.suo
-SpaceRemastered/wwwroot
-SpaceRemastered/obj
-SpaceRemastered/bin
-SpaceRemastered/.bowerrc
+wwwroot/lib/
