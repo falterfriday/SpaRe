@@ -49,6 +49,8 @@ namespace SpaceRemastered.Controllers
 			{
 				var photo = photoList[i].data;
 
+				if (string.IsNullOrEmpty(photo.url)) continue;
+
 				PhotoEntity model = new PhotoEntity
 				{
 					Description = photo.title,

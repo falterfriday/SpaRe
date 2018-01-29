@@ -41,7 +41,7 @@ namespace SpaceRemastered.Controllers
 						d = d.AddDays(-i);
 						date = d.ToString("yyyy-MM-dd");
 						var response = await client.GetAsync($"apod?hd=True&date={date}&api_key={_config["NasaApiKey"]}");
-						response.EnsureSuccessStatusCode();
+						//response.EnsureSuccessStatusCode();
 						results = await response.Content.ReadAsStringAsync();
 						photoList.Add(JsonUtilities.DeserializeJson<NasaModel>(results));
 					}
@@ -56,6 +56,8 @@ namespace SpaceRemastered.Controllers
 			for (int i = 0; i < photoList.Count; i++)
 			{
 				var photo = photoList[i];
+
+				if (string.IsNullOrEmpty(photo.url)) continue;
 
 				PhotoEntity model = new PhotoEntity()
 				{
