@@ -11,3 +11,4 @@
 /SpaceRemastered/config.json
 *.dll
 *.pbd
+/SpaceRemastered/node_modules
