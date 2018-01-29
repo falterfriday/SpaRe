@@ -1,6 +1,11 @@
-﻿<div>
-	<h1>The Server is Running...</h1>
-</div>
+﻿@section Scripts {
+	<script src="~/ClientApp/dist/inline.bundle.js"></script>
+	<script src="~/ClientApp/dist/polyfills.bundle.js"></script>
+	<script src="~/ClientApp/dist/styles.bundle.js"></script>
+	<script src="~/ClientApp/dist/vendor.bundle.js"></script>
+	<script src="~/ClientApp/dist/main.bundle.js"></script>
+}
+
 <div>
-	<h4>you'd better catch it!</h4>
+	<app-root></app-root>
 </div>
