@@ -9,6 +9,7 @@
 		<Folder Include="Pages\" />
 		<Folder Include="Services\" />
 		<Folder Include="ViewModels\" />
+		<Folder Include="wwwroot\img\" />
 	</ItemGroup>
 
 	<ItemGroup>
