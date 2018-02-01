@@ -25,7 +25,19 @@ namespace SpaceRemastered.Controllers
 		}
 
 		[HttpGet]
-		public async Task<IActionResult> GetPhotos()
+		public IActionResult GetPhotos()
+		{
+			try
+			{
+				return Ok(_repository.GetAllPhotos());
+			}
+			catch (Exception ex)
+			{
+				return BadRequest($"Failed to get photos: {ex}");
+			}
+		}
+
+		public async Task<IActionResult> CallApis()
 		{
 			await GetNasaPhotos();
 			await GetRedditPhotos();
