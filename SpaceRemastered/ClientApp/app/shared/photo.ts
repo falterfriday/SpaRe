@@ -1,15 +1,18 @@
 ﻿export interface Photo {
+	id: number;
 	title: string;
 	description: string;
-	hdUrl: string;
-	url: string;
 	height: number;
 	width: number;
+	url: string;
+	hdUrl: string;
 	favorites: number;
 	photographer: string;
-	datePosted: Date;
 	views: number;
 	thumbnail: string;
 	retrievedFrom: string;
 	downloadUrl: string;
+	datePosted: Date;
+	dateCreated: Date;
+	dateUpdated: Date;
 }
