@@ -1,5 +1,3 @@
-﻿<div class="container">
-	<div *ngFor="let p of photos">
-			<img src="{{ p.url }}" alt="{{ p.description }}"  />
-	</div>
+﻿<div *ngFor="let p of photos">
+	<img src="{{ p.url }}" alt="{{ p.description }}" class="img-responsive"/>
 </div>
