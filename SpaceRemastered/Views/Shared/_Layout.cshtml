@@ -1,7 +1,11 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<title>@ViewBag.Title</title>
+	<meta charset="utf-8">
+	<title>SpaceApp</title>
+	<base href="/">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="~/ClientApp/dist/favicon.ico">
 
 	<environment names="Development">
 		<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
@@ -38,8 +42,7 @@
 			</div>
 		</header>
 	</div>
-	<section class="container">
-		<h2 class="text-center">@ViewBag.Title</h2>
+	<section>
 		@RenderBody()
 	</section>
 	<footer class="container"></footer>
