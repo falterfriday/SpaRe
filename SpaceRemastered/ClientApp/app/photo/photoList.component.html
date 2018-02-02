@@ -1,9 +1,5 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title>photoList.component</title>
-</head>
-<body>
-    
-</body>
-</html>
+﻿<div class="container">
+	<div *ngFor="let p of photos">
+			<img src="{{ p.url }}" alt="{{ p.description }}"  />
+	</div>
+</div>
